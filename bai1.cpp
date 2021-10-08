@@ -27,7 +27,7 @@ int main()
 	cout << "Lop: " << lop << endl << endl;
 	cout << "So dien thoai: " << sdt << setw(15) << "Gioi tinh: " << gioitinh << endl;
 	cout << "*********************************************";
-
+	//djtme
 	return 0;
 }
 
