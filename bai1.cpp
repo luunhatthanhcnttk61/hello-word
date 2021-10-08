@@ -26,6 +26,7 @@ int main()
 	cout << "Ma so sinh vien: " << mssv << endl;
 	cout << "Lop: " << lop << endl << endl;
 	cout << "So dien thoai: " << sdt << setw(15) << "Gioi tinh: " << gioitinh << endl;
+	cout << "Djtme Duc Trong :))"<<endl;
 	cout << "*********************************************";
 
 	return 0;
