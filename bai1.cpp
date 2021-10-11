@@ -1,4 +1,4 @@
-//bai1: nhap xuat thong tin sinh vien
+
 
 #include<iostream>
 #include<string>
