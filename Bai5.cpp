@@ -28,7 +28,6 @@ void NameSort(Book *b, int n){
 				swap(b[j], b[j+1]);
 			}
 		}
-	}
 	for(int i=0; i<n-1; i++){
 		display(b[i]);
 	}
@@ -40,7 +39,6 @@ void PageSort(Book *b, int n){
 				swap(b[j], b[j+1]);
 			}
 		}
-	}
 	for(int i=0; i<n-1; i++){
 		display(b[i]);
 	}
@@ -48,7 +46,7 @@ void PageSort(Book *b, int n){
 void NameSearch(Book *b, int n, string k){
 	int D=0;
 	for(int i=0; i<n; i++){
-		if(D.compare(b[i].name)==0){
+		if(k.compare(b[i].name)==0){
 			display(b[i]);
 			D++;
 		}
@@ -74,6 +72,7 @@ int main(){
 	for(int i=0; i<n; i++){
 		cout<<"Nhap cuon sach thu "<<i+1<<": ";
 		input(p[i]);
-	}	
+	}
+}	
 	
 	
